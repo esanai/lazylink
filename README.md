@@ -1,5 +1,5 @@
 # Lazy Link
-![Lazy Link icon](https://github.com/esanai/lazylink/raw/master/Icon%20-%20Alfred%20Lazy%20Link.png)
+<img src="https://github.com/esanai/lazylink/raw/master/Icon%20-%20Alfred%20Lazy%20Link.png" width="250px">
 
 **[Alfred](https://www.alfredapp.com) workflow - Copy and paste titled link from foremost web browser**
 
