@@ -1,4 +1,6 @@
 # Lazy Link
+![Lazy Link icon](https://github.com/esanai/lazylink/raw/master/Icon%20-%20Alfred%20Lazy%20Link.png)
+
 **[Alfred](https://www.alfredapp.com) workflow - Copy and paste titled link from foremost web browser**
 
 (Alfred 3 powerpack required)
