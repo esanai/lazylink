@@ -1,4 +1,6 @@
 # Lazy Link
+[Download](https://github.com/esanai/lazylink/raw/master/Lazy%20Link.alfredworkflow) | [Alfred Forum](http://www.alfredforum.com/topic/9348-lazy-link-copy-and-paste-titled-link-from-foremost-web-browser/)
+
 <img src="https://github.com/esanai/lazylink/raw/master/Icon%20-%20Alfred%20Lazy%20Link.png" width="250px">
 
 **[Alfred](https://www.alfredapp.com) workflow - Copy and paste titled link from foremost web browser**
