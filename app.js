@@ -23,24 +23,35 @@ function getWebLink(res) {
   for (var i = 0; i < browsers.length; i++) {
     if (Application(browsers[i]).running()) {
       strBrowser = browsers[i];
+      break;
     }
   }
-  if (strBrowser === ''){
+  if (strBrowser === '') {
     return false;
   }
 
-  res.title = applyJsCode(
-    function () {
-      return document.title;
-    },
-    strBrowser
-  );
-  res.url = applyJsCode(
-    function () {
-      return document.URL;
-    },
-    strBrowser
-  );
+  if (strBrowser === 'Safari') {
+    var tab = Application(strBrowser).windows[0].currentTab;
+    res.url = tab.url();
+    res.title = tab.name();
+  }
+  else if (strBrowser === 'Google Chrome') {
+    res.title = applyJsCode(
+      function () {
+        return document.title;
+      },
+      strBrowser
+    );
+    res.url = applyJsCode(
+      function () {
+        return document.URL;
+      },
+      strBrowser
+    );
+  }
+  else {
+    return false;
+  }
 
   return true;
 }
