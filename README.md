@@ -20,7 +20,7 @@ Please, don't waste your time.
 - <kbd>Ctrl</kbd> + <kbd>Option</kbd> + <kbd>Command</kbd> + <kbd>v</kbd>: Paste lazy link
 - <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>Option</kbd> + <kbd>Command</kbd> + <kbd>v</kbd>: Paste lazy link starting with "via: "
 
-In rich text editor, it pastes plain HTML link. If you use plain text editor it pastes the link in Markdown format.
+In rich text editor, it pastes rich text hyperlink or plain HTML link. If you use plain text editor it pastes the link in Markdown format.
 
 ## Install
 [Download](https://github.com/esanai/lazylink/raw/master/Lazy%20Link.alfredworkflow) and install
