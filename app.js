@@ -80,10 +80,12 @@ function copyToClipboard(res) {
   var pb = $.NSPasteboard.generalPasteboard;
   var str1 = $.NSString.alloc.initWithUTF8String('<a href="' + res.url + '">' + res.title +'</a>');
   var str2 = $.NSString.alloc.initWithUTF8String('[' + res.title + '](' + res.url + ')');
+  var str3 = $.NSString.alloc.initWithUTF8String('{\\rtf1\\ansi\deff0{\\field{\\*\\fldinst{HYPERLINK "' + res.url + '"}}{\\fldrslt ' + res.title + '}}}');
 
   pb.clearContents;
   pb.setStringForType(str1, $.NSPasteboardTypeHTML);
   pb.setStringForType(str2, $.NSPasteboardTypeString);
+  pb.setStringForType(str3, $.NSPasteboardTypeRTF);
 }
 
 function pasteFromClipboard() {
