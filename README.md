@@ -26,3 +26,6 @@ In rich text editor, it pastes rich text hyperlink or plain HTML link. If you us
 [Download](https://github.com/esanai/lazylink/raw/master/Lazy%20Link.alfredworkflow) and install
 
 Lazy Link supports Safari and Chrome web browser on the macOS.
+
+### For Chrome Web Browser
+After Chrome version 68 [JavaScript injection via AppleScript is disabled by default](https://sites.google.com/a/chromium.org/dev/developers/applescript?visit_id=1-636697721295894719-1246494158&p=applescript&rd=1).  Check this on the Chrome menu bar, 'View > Developer > Allow JavaScript from Apple Events'.
