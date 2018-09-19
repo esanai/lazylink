@@ -29,3 +29,9 @@ Lazy Link supports Safari and Chrome web browser on the macOS.
 
 ### For Chrome Web Browser
 After Chrome version 68 [JavaScript injection via AppleScript is disabled by default](https://sites.google.com/a/chromium.org/dev/developers/applescript?visit_id=1-636697721295894719-1246494158&p=applescript&rd=1).  Check this on the Chrome menu bar, 'View > Developer > Allow JavaScript from Apple Events'.
+
+### For iOS Safari Web Browser
+- Install [Lazy Link](https://www.icloud.com/shortcuts/e11027e84ffc40c79d822613fe16a9e1) to get rich text format.
+- Install [Lazy Link MD](https://www.icloud.com/shortcuts/92ce2035c5c2402f988cf18642536c8e) to get markdown format.
+
+It requires iOS 12 and [Shortcuts app](https://itunes.apple.com/en/app/shortcuts/id915249334).
