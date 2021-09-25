@@ -32,6 +32,8 @@ After Chrome version 68 [JavaScript injection via AppleScript is disabled by def
 
 ### For iOS Safari Web Browser
 - Install [Lazy Link](https://www.icloud.com/shortcuts/e11027e84ffc40c79d822613fe16a9e1) to get rich text format.
-- Install [Lazy Link MD](https://www.icloud.com/shortcuts/92ce2035c5c2402f988cf18642536c8e) to get markdown format.
+- Install Lazy Link MD to get markdown format.
+  - iOS 15: [Lazy Link MD](https://www.icloud.com/shortcuts/eb302607b6ad4c149ea68fc4c3409f99)
+  - iOS 12-14: [Lazy Link MD](https://www.icloud.com/shortcuts/92ce2035c5c2402f988cf18642536c8e)
 
-It requires iOS 12 and [Shortcuts app](https://itunes.apple.com/en/app/shortcuts/id915249334).
+It requires iOS 12-15 and [Shortcuts app](https://itunes.apple.com/en/app/shortcuts/id915249334).
