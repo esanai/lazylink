@@ -16,7 +16,10 @@ function run(argv) {
 
 function getWebLink(res) {
   var browsers = [
+    'Orion',
     'Safari',
+    'Vivaldi',
+    'Brave Browser',
     'Google Chrome'
   ];
   var strBrowser = '';
@@ -30,12 +33,12 @@ function getWebLink(res) {
     return false;
   }
 
-  if (strBrowser === 'Safari') {
+  if (['Orion', 'Safari'].includes(strBrowser)) {
     var tab = Application(strBrowser).windows[0].currentTab;
     res.url = tab.url();
     res.title = tab.name();
   }
-  else if (strBrowser === 'Google Chrome') {
+  else if (['Vivaldi', 'Brave Browser', 'Google Chrome'].includes(strBrowser)) {
     res.title = applyJsCode(
       function () {
         return document.title;
